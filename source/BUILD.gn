@@ -20,7 +20,7 @@ static_library("bootstrap") {
     "//foundation/distributedschedule/interfaces/kits/samgr_lite/samgr",
     "//utils/native/lite/include",
   ]
-  if (ohos_kernel_type == "liteos_riscv" || ohos_kernel_type == "liteos_m") {
+  if (ohos_kernel_type == "liteos_m") {
     include_dirs += [ "//kernel/liteos_m/kal" ]
   } else if (ohos_kernel_type == "liteos_a" || ohos_kernel_type == "linux") {
     include_dirs += [
