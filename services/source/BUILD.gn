@@ -24,7 +24,6 @@ static_library("bootstrap") {
     include_dirs += []
   } else if (ohos_kernel_type == "liteos_a" || ohos_kernel_type == "linux") {
     include_dirs += [
-      "//kernel/liteos_a/kernel/include/",
       "//third_party/bounds_checking_function/include",
     ]
   }
