@@ -8,7 +8,7 @@
 
 ## Introduction<a name="section469617221261"></a>
 
-The bootstrap\_lite module provides entry identifiers for starting services and features. When Samgr starts, it will call the entry function identified by boostrap and start system services.
+The bootstrap\_lite module provides entry identifiers for starting services and features. When Samgr starts, it will call the entry function identified by bootstrap and start system services.
 
 ## Directory Structure<a name="section1464106163817"></a>
 
