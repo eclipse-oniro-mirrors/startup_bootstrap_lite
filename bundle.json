@@ -1,6 +1,6 @@
 {
     "name": "@ohos/startup_bootstrap_lite",
-    "description": " boostrap and start system services",
+    "description": " bootstrap and start system services",
     "homePage": "https://gitee.com/openharmony",
     "version": "3.1",
     "license": "Apache License 2.0",
