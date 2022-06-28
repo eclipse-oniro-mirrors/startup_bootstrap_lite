@@ -8,7 +8,7 @@
 
 ## 简介<a name="section469617221261"></a>
 
-bootstrap启动引导组件，提供了各服务和功能的启动入口标识。在SAMGR启动时，会调用boostrap标识的入口函数，并启动系统服务。
+bootstrap启动引导组件，提供了各服务和功能的启动入口标识。在SAMGR启动时，会调用bootstrap标识的入口函数，并启动系统服务。
 
 ## 目录<a name="section1464106163817"></a>
 
