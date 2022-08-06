@@ -17,15 +17,13 @@ static_library("bootstrap") {
   ]
   include_dirs = [
     "../source",
-    "//foundation/distributedschedule/samgr_lite/interfaces/kits/samgr",
+    "//foundation/systemabilitymgr/samgr_lite/interfaces/kits/samgr",
     "//utils/native/lite/include",
   ]
   if (ohos_kernel_type == "liteos_m") {
     include_dirs += []
   } else if (ohos_kernel_type == "liteos_a" || ohos_kernel_type == "linux") {
-    include_dirs += [
-      "//third_party/bounds_checking_function/include",
-    ]
+    include_dirs += [ "//third_party/bounds_checking_function/include" ]
   }
   cflags = [ "-Wall" ]
 }
