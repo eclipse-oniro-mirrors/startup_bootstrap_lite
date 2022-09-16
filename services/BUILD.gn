@@ -20,9 +20,9 @@ lite_component("bootstrap") {
 ndk_lib("bootstrap_lite_ndk") {
   deps = [ "//base/startup/bootstrap_lite/services/source:bootstrap" ]
   head_files = [
-    "//utils/native/lite/include/ohos_init.h",
-    "//utils/native/lite/include/ohos_errno.h",
-    "//utils/native/lite/include/ohos_types.h",
+    "//commonlibrary/utils_lite/include/ohos_init.h",
+    "//commonlibrary/utils_lite/include/ohos_errno.h",
+    "//commonlibrary/utils_lite/include/ohos_types.h",
   ]
 }
 
