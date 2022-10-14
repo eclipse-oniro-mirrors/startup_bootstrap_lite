@@ -1,4 +1,4 @@
-# bootstrap启动引导组件<a name="ZH-CN_TOPIC_0000001082300996"></a>
+# bootstrap启动引导部件<a name="ZH-CN_TOPIC_0000001082300996"></a>
 ## 简介<a name="section469617221261"></a>
 
 bootstrap启动引导组件，提供了各服务和功能的启动入口标识。在SAMGR启动时，会调用bootstrap标识的入口函数，并启动系统服务。
