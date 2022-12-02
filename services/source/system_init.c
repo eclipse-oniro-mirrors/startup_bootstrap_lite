@@ -25,4 +25,5 @@ void OHOS_SystemInit(void)
     SYS_INIT(feature);
     MODULE_INIT(run);
     SAMGR_Bootstrap();
+    LiteParamService();
 }
