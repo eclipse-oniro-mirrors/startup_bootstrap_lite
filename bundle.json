@@ -1,5 +1,5 @@
 {
-    "name": "@ohos/startup_bootstrap_lite",
+    "name": "@ohos/bootstrap_lite",
     "description": " boostrap and start system services",
     "homePage": "https://gitee.com/openharmony",
     "version": "3.1",
