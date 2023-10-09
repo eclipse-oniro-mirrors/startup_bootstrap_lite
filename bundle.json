@@ -16,7 +16,7 @@
         "name": "bootstrap_lite",
         "subsystem": "startup",
         "adapted_system_type": [
-            "small"
+            "mini"
         ],
         "rom": "14KB",
         "ram": "~128KB",
