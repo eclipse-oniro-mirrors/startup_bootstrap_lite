@@ -2,9 +2,10 @@
     "name": "@ohos/bootstrap_lite",
     "description": " boostrap and start system services",
     "homePage": "https://gitee.com/openharmony",
-    "version": "3.1",
+    "version": "4.0.2",
     "license": "Apache License 2.0",
     "repository": "https://gitee.com/openharmony/startup_bootstrap_lite",
+    "supplier": "Organization: OpenHarmony",
     "publishAs": "code-segment",
     "segment": {
         "destPath": "base/startup/bootstrap_lite"
@@ -15,13 +16,13 @@
         "name": "bootstrap_lite",
         "subsystem": "startup",
         "adapted_system_type": [
-            "small"
+            "mini"
         ],
         "rom": "14KB",
         "ram": "~128KB",
         "deps": {
             "components": [
-                "utils_base",
+                "utils_lite",
                 "samgr_lite"
             ],
             "third_party": [
