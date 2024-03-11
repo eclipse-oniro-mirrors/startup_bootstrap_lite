@@ -22,7 +22,6 @@
         "ram": "~128KB",
         "deps": {
             "components": [
-                "utils_lite",
                 "samgr_lite"
             ],
             "third_party": [
