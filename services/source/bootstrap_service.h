@@ -65,9 +65,16 @@ extern "C" {
         (initCall);                                     \
     })
 
-#define INIT_APP_CALL(name) APP_CALL(name, 0);
+#define INIT_APP_CALL(name)                             \
+    do {                                                \
+        APP_CALL(name, 0);                              \
+    } while (0)
 
-#define INIT_TEST_CALL()    MODULE_CALL(test, 0);
+#define INIT_TEST_CALL()                                \
+    do {                                                \
+        MODULE_CALL(test, 0);                           \
+    } while (0)
+
 #elif (defined(__ICCARM__))
 #define APP_BEGIN(name, step) __section_begin(APP_NAME(name, step))
 #define APP_END(name, step) __section_end(APP_NAME(name, step))
